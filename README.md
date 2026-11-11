@@ -7,10 +7,10 @@
 
 ## 대표 프로젝트
 
-### [RC카 실시간 보행자 탐지 (Raspberry Pi 4)](https://github.com/immmingyu/rc-pedestrian-detection)
-`PyTorch` `YOLOv8` `ONNX Runtime` `C++` `Raspberry Pi 4`
+### [RC카 실시간 보행자 탐지: 경량 커스텀 CNN (Raspberry Pi 4)](https://github.com/immmingyu/rc-pedestrian-detection)
+`PyTorch` `Custom CNN` `ONNX Runtime` `C++` `Raspberry Pi 4`
 
-RPi4에서 실시간으로 동작하는 보행자 탐지 모델을 만든 3인 팀 프로젝트의 AI 파트입니다. 제공받은 베이스 코드에서 학습–추론 인코딩 불일치 버그를 찾아 고쳤고, 13회의 실험을 공통 기준으로 재평가해 비교했습니다. 최종적으로 파라미터 0.225M, 0.9MB 모델로 RPi4 실측 13~15 FPS를 달성했습니다.
+RPi4에서 실시간으로 동작하는 보행자 탐지 모델을 만든 3인 팀 프로젝트의 AI 파트입니다. 그리드 기반 커스텀 CNN에서 학습–추론 인코딩 불일치 버그를 찾아 고쳤고, 13회의 실험을 공통 기준으로 재평가해 비교했습니다. 최종적으로 파라미터 0.225M, 0.9MB 모델로 RPi4 실측 13~15 FPS를 달성했습니다.
 
 ### 멀티모달 AI 기반 연구실 지능형 CCTV · 진행 중 (공개 예정)
 `YOLOv8-Pose` `ByteTrack` `EXAONE 3.5` `FastAPI` `SQLite`
